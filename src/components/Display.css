@@ -1,0 +1,9 @@
+  .component-display > div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #2b293d;
+    padding: 0.2rem 0.7rem 0.1rem 0.5rem;
+    color: #80c9c9;
+    font-size: 2.5rem;
+}

@@ -1,0 +1,34 @@
+  .component-button {
+    background: #cad2c5;
+    display: flex;
+    border: 1px solid rgba(0,0,0,0.05);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.5);
+    height: 20%;
+    min-width: 25%;
+}
+
+.component-button[data-size="2"] {
+    height: 40%;
+}
+
+
+.component-button[data-value="null"] {
+    pointer-events: none;
+}
+.component-button button {
+    background-color: #e0e0e0;
+    border: 0;
+    font-size: 1.5rem;
+    margin: 0 1px 0 0;
+    flex: 1 0 auto;
+    padding: 0;
+  }
+.component-button:hover {
+    background: #d7ddd3;
+    cursor: default;
+}
