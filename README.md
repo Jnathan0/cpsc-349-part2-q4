@@ -1,3 +1,7 @@
+# CPSC 349 Part 2: Calculator App
+
+
+
 # Getting Started 
 ```bash
 npm install -a
